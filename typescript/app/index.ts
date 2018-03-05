@@ -1,5 +1,5 @@
-const argv = require('yargs').argv
-const square = require('./square')
+import { argv } from 'yargs'
+import square from './square'
 
 if (argv.nb) {
   if (isNaN(argv.nb)) {

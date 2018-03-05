@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "suppressImplicitAnyIndexErrors": false,
+
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "~/*": ["../app/*"]
+    },
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "target": "es2015"
+  },
+  "exclude": ["src/**/__tests__/*"]
+}

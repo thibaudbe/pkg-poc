@@ -1,0 +1,28 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "bin": {
+    "bundle": "./build/bundle.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./app/index.ts --nb=4",
+    "pkg": "node ./build/webpack.pkg.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/yargs": "^11.0.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "pkg": "^4.3.0",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.1.0"
+  }
+}
