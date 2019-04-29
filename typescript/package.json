@@ -7,7 +7,6 @@
     "bundle": "./build/bundle.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node ./app/index.ts --nb=4",
     "pkg": "node ./build/webpack.pkg.js"
   },
